@@ -6,7 +6,20 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <button id="connect">Conectar</button>
+
+  <div style="display: none" id="content">
+    <h1>Tu cuenta: </h1>
+    <span id="account"></span>
+    <form id="send" style="margin-top: 10px;">
+      <label>Address</label>
+      <input id="recipient" type="text" placeholder="Recipient">
+      
+      <label>In weis</label>
+      <input id="amount" type="number" placeholder="Amount">
+      <button>transact</button>
+    </form>
+  </div>
   <script src="./main.js"></script>
 </body>
 </html>
